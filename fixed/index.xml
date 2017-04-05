@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fixed-rss on My New Hugo Site</title>
+    <link>https://dimpu47.github.io/fixed/index.xml</link>
+    <description>Recent content in Fixed-rss on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 Dec 2016 15:32:33 +0530</lastBuildDate>
+    <atom:link href="https://dimpu47.github.io/fixed/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>code</title>
+      <link>https://dimpu47.github.io/code/</link>
+      <pubDate>Sat, 17 Dec 2016 15:32:33 +0530</pubDate>
+      
+      <guid>https://dimpu47.github.io/code/</guid>
+      <description>
+
+&lt;h1 id=&#34;hola-mundo&#34;&gt;Hola Mundo&lt;/h1&gt;
+
+&lt;p&gt;in a file named, hola_mundo.go, put below content in it as:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;package main
+import &amp;quot;fmt&amp;quot;
+func main() {
+    fmt.Println(&amp;quot;Hola Mundo! Gracias&amp;quot;)
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;then, in cmd/terminal:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ go run hello_world.go
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Congratulations on creating your first script in go! Let&amp;rsquo;s Go ! Yo ! Bro ! Woah :-S ?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>https://dimpu47.github.io/about/</link>
+      <pubDate>Sat, 17 Dec 2016 15:27:25 +0530</pubDate>
+      
+      <guid>https://dimpu47.github.io/about/</guid>
+      <description>
+
+&lt;h1 id=&#34;hola-mundo&#34;&gt;Hola Mundo!&lt;/h1&gt;
+
+&lt;p&gt;This is my personal learning weblog. To write about anything I feel like :P
+I hope it would make sense if not then go jump off a cliff ! come back,
+reload the page in your favourite browser and everything should be fine.&lt;/p&gt;
+
+&lt;p&gt;Grazie.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
