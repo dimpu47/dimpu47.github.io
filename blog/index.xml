@@ -31,22 +31,25 @@ why do people even learn data structures ? Because that&amp;rsquo;s how you stor
     </item>
     
     <item>
-      <title>websockets in Go.</title>
-      <link>https://dimpu47.github.io/blog/go-websockets/</link>
-      <pubDate>Fri, 25 Jan 2019 17:09:14 -0500</pubDate>
+      <title>sharing is caring.</title>
+      <link>https://dimpu47.github.io/blog/isomorphic-go/</link>
+      <pubDate>Sat, 19 Jan 2019 15:07:32 +0530</pubDate>
       
-      <guid>https://dimpu47.github.io/blog/go-websockets/</guid>
-      <description>Btw, there already is a lot of cool resources on websockets in go, this is just for me to yap about &amp;lsquo;em again if you remember.</description>
+      <guid>https://dimpu47.github.io/blog/isomorphic-go/</guid>
+      <description>Sharing is caring is a cliche but not in when is comes to webapps.
+Isomorphic web applications are becoming popular and accepted methodology by many in the Game. in dictionary terms, it means something of the corresponding or similar form or relations.
+Hmm&amp;hellip; wth! I know&amp;hellip;
+what is isomorphic, though? isomorphic webapps are when server and client share some common data with each other and thus correspond/relate to each other in a way.</description>
     </item>
     
     <item>
-      <title>sharing is caring</title>
-      <link>https://dimpu47.github.io/blog/isomorphic-go/</link>
-      <pubDate>Tue, 19 Jun 2018 15:07:32 +0530</pubDate>
+      <title>websockets in Go.</title>
+      <link>https://dimpu47.github.io/blog/go-websockets/</link>
+      <pubDate>Sun, 25 Mar 2018 17:09:14 -0500</pubDate>
       
-      <guid>https://dimpu47.github.io/blog/isomorphic-go/</guid>
-      <description>what is isomorphic, though? isomorphic web applications are becoming popular and crucial for many big companies. Isomorphic in dictionary terms, it means something of the corresponding or similar form. Hmm&amp;hellip; no what the hell ? I know !
-isomorphic webapps are where server and client share some common data with each other and thus correspond to each other in a way. they provide better ux, improved discovery via search engines, and reduced ops since parts of code is shared.</description>
+      <guid>https://dimpu47.github.io/blog/go-websockets/</guid>
+      <description>Btw, there already is a lot of cool resources on websockets in go, this is just for me to yap about &amp;lsquo;em again if you remember. I&amp;rsquo;ll be building a basic simple chat application that allows user to have live real time conversion over http.
+This is just to brush up goroutines, channels and concurrency in Go.</description>
     </item>
     
   </channel>

@@ -9,13 +9,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="no-referrer">
 <meta name="author" content="Gaurav Choudhary">
-<meta name="description" content="Btw, there already is a lot of cool resources on websockets in go, this is just for me to yap about &lsquo;em again if you remember.">
+<meta name="description" content="Btw, there already is a lot of cool resources on websockets in go, this is just for me to yap about &lsquo;em again if you remember. I&rsquo;ll be building a basic simple chat application that allows user to have live real time conversion over http.
+This is just to brush up goroutines, channels and concurrency in Go.">
 
 <meta property="og:title" content="websockets in Go." />
-<meta property="og:description" content="Btw, there already is a lot of cool resources on websockets in go, this is just for me to yap about &lsquo;em again if you remember." />
+<meta property="og:description" content="Btw, there already is a lot of cool resources on websockets in go, this is just for me to yap about &lsquo;em again if you remember. I&rsquo;ll be building a basic simple chat application that allows user to have live real time conversion over http.
+This is just to brush up goroutines, channels and concurrency in Go." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://dimpu47.github.io/blog/go-websockets/" /><meta property="article:published_time" content="2019-01-25T17:09:14-05:00"/>
-<meta property="article:modified_time" content="2019-01-25T17:09:14-05:00"/>
+<meta property="og:url" content="https://dimpu47.github.io/blog/go-websockets/" /><meta property="article:published_time" content="2018-03-25T17:09:14-05:00"/>
+<meta property="article:modified_time" content="2018-03-25T17:09:14-05:00"/>
 
 
 <title>
@@ -42,11 +44,11 @@
 
 
     
-    <link rel="stylesheet" href="https://dimpu47.github.io/css/reset.css?t=2019-02-26%2002%3a43%3a58.92378%20%2b0530%20IST%20m%3d%2b0.191779441">
-    <link rel="stylesheet" href="https://dimpu47.github.io/css/pygments.css?t=2019-02-26%2002%3a43%3a58.92378%20%2b0530%20IST%20m%3d%2b0.191779441">
-    <link rel="stylesheet" href="https://dimpu47.github.io/css/main.css?t=2019-02-26%2002%3a43%3a58.92378%20%2b0530%20IST%20m%3d%2b0.191779441">
+    <link rel="stylesheet" href="https://dimpu47.github.io/css/reset.css?t=2019-02-26%2004%3a01%3a45.530441%20%2b0530%20IST%20m%3d%2b0.085750808">
+    <link rel="stylesheet" href="https://dimpu47.github.io/css/pygments.css?t=2019-02-26%2004%3a01%3a45.530441%20%2b0530%20IST%20m%3d%2b0.085750808">
+    <link rel="stylesheet" href="https://dimpu47.github.io/css/main.css?t=2019-02-26%2004%3a01%3a45.530441%20%2b0530%20IST%20m%3d%2b0.085750808">
     
-        <link rel="stylesheet" href="https://dimpu47.github.io/css/override.css?t=2019-02-26%2002%3a43%3a58.92378%20%2b0530%20IST%20m%3d%2b0.191779441">
+        <link rel="stylesheet" href="https://dimpu47.github.io/css/override.css?t=2019-02-26%2004%3a01%3a45.530441%20%2b0530%20IST%20m%3d%2b0.085750808">
     
 
 
@@ -167,7 +169,7 @@
                 </div>
                 <div class="meta">
                     
-                    <div class="date" title='Fri Jan 25 2019 17:09:14 -0500'>Jan 25, 2019</div>
+                    <div class="date" title='Sun Mar 25 2018 17:09:14 -0500'>Mar 25, 2018</div>
                     
                     
 		    <div class="reading-time"><div class="middot"></div>One minute read</div>
@@ -175,29 +177,9 @@
                 </div>
             </div>
             <div class="markdown">
-                <!-- I recently discovered that from git version [1.8.5](https://github.com/git/git/blob/master/Documentation/RelNotes/1.8.5.txt#L100) onwards, `@` can replace `HEAD`: 
+                <p>Btw, there already is a lot of cool resources on websockets in go, this is just for me to yap about &lsquo;em again if you <a href="https://dimpu47.github.io/about">remember</a>. I&rsquo;ll be building a basic simple chat application that allows user to have live real time conversion over http.</p>
 
-```bash
-$ git reset --hard @~2
-$ git rebase -i @~10
-$ git diff @~2..@~3
-```
-
-And also in most scenarios `HEAD` can be left out completely, so you can say:
-
-```bash
-$ git reset -- @{2}
-```
-
-instead of:
-
-```bash
-$ git reset -- HEAD@{2}
-```
-
-It takes some getting used to, but it's definitely faster than typing `HEAD`. -->
-
-<p>Btw, there already is a lot of cool resources on websockets in go, this is just for me to yap about &lsquo;em again if you <a href="https://dimpu47.github.io/about">remember</a>.</p>
+<p>This is just to brush up goroutines, channels and concurrency in Go.</p>
 
                 <br>
                 
