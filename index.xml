@@ -6,21 +6,47 @@
     <description>Recent content on Gaurverb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 25 Aug 2017 17:09:14 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 22 Feb 2019 17:09:14 -0500</lastBuildDate>
     
 	<atom:link href="https://dimpu47.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Use @ instead of HEAD</title>
-      <link>https://dimpu47.github.io/blog/use-at-instead-of-head/</link>
-      <pubDate>Fri, 25 Aug 2017 17:09:14 -0500</pubDate>
+      <title>facade and flyweight in Go.</title>
+      <link>https://dimpu47.github.io/blog/facade-and-flyweight/</link>
+      <pubDate>Fri, 22 Feb 2019 17:09:14 -0500</pubDate>
       
-      <guid>https://dimpu47.github.io/blog/use-at-instead-of-head/</guid>
-      <description>I recently discovered that from git version 1.8.5 onwards, @ can replace HEAD:
-$ git reset --hard @~2 $ git rebase -i @~10 $ git diff @~2..@~3  And also in most scenarios HEAD can be left out completely, so you can say:
-$ git reset -- @{2}  instead of:
-$ git reset -- HEAD@{2}  It takes some getting used to, but it&amp;rsquo;s definitely faster than typing HEAD.</description>
+      <guid>https://dimpu47.github.io/blog/facade-and-flyweight/</guid>
+      <description>what? what&amp;rsquo;re you takin &amp;lsquo;bout? Data Structures Or rather data structural patterns.
+why do people even learn data structures ? Because that&amp;rsquo;s how you store or manipulate data in memory.</description>
+    </item>
+    
+    <item>
+      <title>Go for Data Science</title>
+      <link>https://dimpu47.github.io/blog/go-for-data-science/</link>
+      <pubDate>Sat, 02 Feb 2019 17:09:14 -0500</pubDate>
+      
+      <guid>https://dimpu47.github.io/blog/go-for-data-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>websockets in Go.</title>
+      <link>https://dimpu47.github.io/blog/go-websockets/</link>
+      <pubDate>Fri, 25 Jan 2019 17:09:14 -0500</pubDate>
+      
+      <guid>https://dimpu47.github.io/blog/go-websockets/</guid>
+      <description>Btw, there already is a lot of cool resources on websockets in go, this is just for me to yap about &amp;lsquo;em again if you remember.</description>
+    </item>
+    
+    <item>
+      <title>sharing is caring</title>
+      <link>https://dimpu47.github.io/blog/isomorphic-go/</link>
+      <pubDate>Tue, 19 Jun 2018 15:07:32 +0530</pubDate>
+      
+      <guid>https://dimpu47.github.io/blog/isomorphic-go/</guid>
+      <description>what is isomorphic, though? isomorphic web applications are becoming popular and crucial for many big companies. Isomorphic in dictionary terms, it means something of the corresponding or similar form. Hmm&amp;hellip; no what the hell ? I know !
+isomorphic webapps are where server and client share some common data with each other and thus correspond to each other in a way. they provide better ux, improved discovery via search engines, and reduced ops since parts of code is shared.</description>
     </item>
     
     <item>
@@ -30,15 +56,6 @@ $ git reset -- HEAD@{2}  It takes some getting used to, but it&amp;rsquo;s defin
       
       <guid>https://dimpu47.github.io/code/code/</guid>
       <description> compile from source ? not really !  </description>
-    </item>
-    
-    <item>
-      <title>Lorem Ipsum Dolor</title>
-      <link>https://dimpu47.github.io/blog/lorem-ipsum-dolor/</link>
-      <pubDate>Tue, 19 Jan 2016 15:07:32 +0530</pubDate>
-      
-      <guid>https://dimpu47.github.io/blog/lorem-ipsum-dolor/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
     </item>
     
   </channel>
