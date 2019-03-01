@@ -16,7 +16,7 @@ Go&rsquo;s concurrency model is built upon CSP - Communicating Sequencial Proces
 
 <meta itemprop="datePublished" content="2018-08-25T17:09:14-05:00" />
 <meta itemprop="dateModified" content="2018-08-25T17:09:14-05:00" />
-<meta itemprop="wordCount" content="131">
+<meta itemprop="wordCount" content="175">
 
 
 
@@ -85,7 +85,9 @@ Go&rsquo;s concurrency model is built upon CSP - Communicating Sequencial Proces
 
 <p>Go&rsquo;s concurrency model is built upon <a href="http://www.usingcsp.com/cspbook.pdf">CSP - Communicating Sequencial Processes </a> Where <em>values</em> are shared b/w independent activities or <em>goroutines</em> but <em>variables</em> are, for the most part, confined to single activity. There are certain hazards and pitfalls of concurrent programming as done traditionally, but i&rsquo;ll cover that some other post.</p>
 
-<p>Go&rsquo;s support for concurrency is one of it&rsquo;s greatest strength, using lightweight (2mb) threads called goroutines</p>
+<p>Go&rsquo;s support for concurrency is one of it&rsquo;s greatest strength, <code>go</code> spawns lightweight (2mb) threads of <code>func()</code> execution that runs on available OS threads. All goroutines in a single program share same address space. Programs start with a small stack that grows by allocation and frees up heap storage as required.</p>
+
+<p><em>p.s: this is currently being refactored. consider it <strong>wip</strong>.</em></p>
 
 		</div>
 	</main>
