@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gaurav&#39;s Shit Load of Crap!</title>
+    <title>gaurolog</title>
     <link>https://dimpu47.github.io/</link>
-    <description>Recent content on Gaurav&#39;s Shit Load of Crap!</description>
+    <description>Recent content on gaurolog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Fri, 22 Feb 2019 17:09:14 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 24 Feb 2019 15:07:32 +0530</lastBuildDate>
     
 	<atom:link href="https://dimpu47.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Operators in Go or Ansible.</title>
+      <link>https://dimpu47.github.io/blog/k8s-operator/</link>
+      <pubDate>Sun, 24 Feb 2019 15:07:32 +0530</pubDate>
+      
+      <guid>https://dimpu47.github.io/blog/k8s-operator/</guid>
+      <description>Operators Operators makes it easy to incorporte ops knowledge in k8s native resource.</description>
+    </item>
     
     <item>
       <title>Facade and Flyweight in Go.</title>
@@ -19,15 +28,6 @@
       
       <guid>https://dimpu47.github.io/blog/facade-and-flyweight/</guid>
       <description>Facade and Flyweight in Go. These are two data structral pattern in any application, I&amp;rsquo;ll be practing how to write them principles in Go.</description>
-    </item>
-    
-    <item>
-      <title>Operators in Go or Ansible.</title>
-      <link>https://dimpu47.github.io/blog/k8s-operator/</link>
-      <pubDate>Mon, 04 Feb 2019 15:07:32 +0530</pubDate>
-      
-      <guid>https://dimpu47.github.io/blog/k8s-operator/</guid>
-      <description>Operators Operators makes it easy to incorporte ops knowledge in k8s native resource.</description>
     </item>
     
     <item>
@@ -100,15 +100,6 @@ When establishing connection, client sends an HTTP Upgrade Header to switch from
       
       <guid>https://dimpu47.github.io/code/code/</guid>
       <description> compile from source ? not really !  </description>
-    </item>
-    
-    <item>
-      <title>Wtf!</title>
-      <link>https://dimpu47.github.io/about-hugo/</link>
-      <pubDate>Sat, 22 Aug 2015 06:42:21 -0700</pubDate>
-      
-      <guid>https://dimpu47.github.io/about-hugo/</guid>
-      <description>personal learning weblog, wer i yap &#39;bout shi&#39; i like! hope yo dig it, mike! Grazie.  </description>
     </item>
     
   </channel>
