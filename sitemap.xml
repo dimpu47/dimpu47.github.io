@@ -8,18 +8,8 @@
   </url>
   
   <url>
-    <loc>https://dimpu47.github.io/blog/k8s-operator/</loc>
-    <lastmod>2019-02-24T15:07:32+05:30</lastmod>
-  </url>
-  
-  <url>
     <loc>https://dimpu47.github.io/blog/facade-and-flyweight/</loc>
     <lastmod>2019-02-22T17:09:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dimpu47.github.io/blog/storage-k8s/</loc>
-    <lastmod>2019-02-12T17:09:14-05:00</lastmod>
   </url>
   
   <url>
@@ -35,11 +25,6 @@
   <url>
     <loc>https://dimpu47.github.io/blog/k8s-hpa/</loc>
     <lastmod>2018-11-19T15:07:32+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dimpu47.github.io/blog/sniffing-in-go/</loc>
-    <lastmod>2018-09-02T17:09:14-05:00</lastmod>
   </url>
   
   <url>

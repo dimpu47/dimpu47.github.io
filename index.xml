@@ -23,31 +23,12 @@ Data Classes module provides a decorator to automate the creation of data models
     </item>
     
     <item>
-      <title>Operators in Go or Ansible.</title>
-      <link>https://dimpu47.github.io/blog/k8s-operator/</link>
-      <pubDate>Sun, 24 Feb 2019 15:07:32 +0530</pubDate>
-      
-      <guid>https://dimpu47.github.io/blog/k8s-operator/</guid>
-      <description>Operators Operators makes it easy to incorporte ops knowledge in k8s native resource.
-p.s: this is wip.</description>
-    </item>
-    
-    <item>
       <title>Facade and Flyweight in Go.</title>
       <link>https://dimpu47.github.io/blog/facade-and-flyweight/</link>
       <pubDate>Fri, 22 Feb 2019 17:09:14 -0500</pubDate>
       
       <guid>https://dimpu47.github.io/blog/facade-and-flyweight/</guid>
       <description>Facade and Flyweight in Go. These are two data structral pattern in any application, I&amp;rsquo;ll be practing how to write them principles in Go.</description>
-    </item>
-    
-    <item>
-      <title>CSI - Container Storage Interface</title>
-      <link>https://dimpu47.github.io/blog/storage-k8s/</link>
-      <pubDate>Tue, 12 Feb 2019 17:09:14 -0500</pubDate>
-      
-      <guid>https://dimpu47.github.io/blog/storage-k8s/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -84,15 +65,6 @@ what is isomorphic, though? isomorphic webapps are when server and client share 
     </item>
     
     <item>
-      <title>Sniffing in Go.</title>
-      <link>https://dimpu47.github.io/blog/sniffing-in-go/</link>
-      <pubDate>Sun, 02 Sep 2018 17:09:14 -0500</pubDate>
-      
-      <guid>https://dimpu47.github.io/blog/sniffing-in-go/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>systems programming in Go.</title>
       <link>https://dimpu47.github.io/blog/go-systems-programming/</link>
       <pubDate>Sat, 25 Aug 2018 17:09:14 -0500</pubDate>
@@ -111,6 +83,15 @@ Go&amp;rsquo;s concurrency model is built upon CSP - Communicating Sequencial Pr
       <guid>https://dimpu47.github.io/blog/go-websockets/</guid>
       <description>Websockets are way of providing full-duplex communication b/w client and server with lower overheads. URI schemes ws or wss is a websocket (unencrypted) or websocket secure (encrypted) protocol respectively. It&amp;rsquo;s designed to work over HTTP port 80 or 443 to support HTTP Proxies and Intermediaries.
 When establishing connection, client sends an HTTP Upgrade Header to switch from HTTP protocol to WebSocket protocol. Communications i.e. exchange of data or byte streams are dealt by TCP alone.</description>
+    </item>
+    
+    <item>
+      <title>Oops! not have go installed ? Woah o_O </title>
+      <link>https://dimpu47.github.io/code/code/</link>
+      <pubDate>Sat, 17 Dec 2016 15:32:33 +0530</pubDate>
+      
+      <guid>https://dimpu47.github.io/code/code/</guid>
+      <description> compile from source ? not really !  </description>
     </item>
     
   </channel>

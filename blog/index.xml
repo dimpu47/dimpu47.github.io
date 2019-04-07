@@ -23,31 +23,12 @@ Data Classes module provides a decorator to automate the creation of data models
     </item>
     
     <item>
-      <title>Operators in Go or Ansible.</title>
-      <link>https://dimpu47.github.io/blog/k8s-operator/</link>
-      <pubDate>Sun, 24 Feb 2019 15:07:32 +0530</pubDate>
-      
-      <guid>https://dimpu47.github.io/blog/k8s-operator/</guid>
-      <description>Operators Operators makes it easy to incorporte ops knowledge in k8s native resource.
-p.s: this is wip.</description>
-    </item>
-    
-    <item>
       <title>Facade and Flyweight in Go.</title>
       <link>https://dimpu47.github.io/blog/facade-and-flyweight/</link>
       <pubDate>Fri, 22 Feb 2019 17:09:14 -0500</pubDate>
       
       <guid>https://dimpu47.github.io/blog/facade-and-flyweight/</guid>
       <description>Facade and Flyweight in Go. These are two data structral pattern in any application, I&amp;rsquo;ll be practing how to write them principles in Go.</description>
-    </item>
-    
-    <item>
-      <title>CSI - Container Storage Interface</title>
-      <link>https://dimpu47.github.io/blog/storage-k8s/</link>
-      <pubDate>Tue, 12 Feb 2019 17:09:14 -0500</pubDate>
-      
-      <guid>https://dimpu47.github.io/blog/storage-k8s/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -81,15 +62,6 @@ what is isomorphic, though? isomorphic webapps are when server and client share 
       
       <guid>https://dimpu47.github.io/blog/k8s-hpa/</guid>
       <description>Horizontal Pod Autoscaler - HPA HorizaontalPodAutoscaler is a Kubernetes Resource that automatically scales Pod Replicas managed by a Controller. This automaic scaling is performed by Horizontal Controllers, which is enabled and configured by creating a HorizontalPodAutoscaler(HPA) Resource. The Controller periodically checks pod metrics, calculates the no. of replicas required to meet the target value configured in HPA resource and adjust/update replica field on target resource i.e. Deployment, ReplicaSet, StatefulSet, ReplicationController.</description>
-    </item>
-    
-    <item>
-      <title>Sniffing in Go.</title>
-      <link>https://dimpu47.github.io/blog/sniffing-in-go/</link>
-      <pubDate>Sun, 02 Sep 2018 17:09:14 -0500</pubDate>
-      
-      <guid>https://dimpu47.github.io/blog/sniffing-in-go/</guid>
-      <description></description>
     </item>
     
     <item>
