@@ -19,7 +19,7 @@
       
       <guid>https://dimpu47.github.io/blog/python-dataclasses/</guid>
       <description>What data.. classes.. ? Python 3.7 adds a new module in standard library called Data Classes. So, what are they? what do they do? how do they benefit ? This article shall cover it all.
-Data Classes module provides a decorator to automate the creation of data models. A dataclass can be thoought of as a mutable object/class that contains no. of fields. These fields are typically known in advance and are stored in a database table or in API.</description>
+Data Classes module provides a decorator to automate the creation of data models. A dataclass can be thought of as a mutable object/class that contains no. of fields. These fields are typically known in advance and are stored in a database table or in API.</description>
     </item>
     
     <item>
