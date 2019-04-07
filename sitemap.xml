@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://dimpu47.github.io/blog/python-dataclasses/</loc>
+    <lastmod>2019-04-07T18:09:49+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://dimpu47.github.io/blog/k8s-operator/</loc>
     <lastmod>2019-02-24T15:07:32+05:30</lastmod>
   </url>
@@ -10,6 +15,11 @@
   <url>
     <loc>https://dimpu47.github.io/blog/facade-and-flyweight/</loc>
     <lastmod>2019-02-22T17:09:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dimpu47.github.io/blog/storage-k8s/</loc>
+    <lastmod>2019-02-12T17:09:14-05:00</lastmod>
   </url>
   
   <url>
@@ -69,7 +79,7 @@
   
   <url>
     <loc>https://dimpu47.github.io/</loc>
-    <lastmod>2019-02-24T15:07:32+05:30</lastmod>
+    <lastmod>2019-04-07T18:09:49+05:30</lastmod>
     <priority>0</priority>
   </url>
   

@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 24 Feb 2019 15:07:32 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 07 Apr 2019 18:09:49 +0530</lastBuildDate>
     
 	<atom:link href="https://dimpu47.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Data Classes in Python3.7</title>
+      <link>https://dimpu47.github.io/blog/python-dataclasses/</link>
+      <pubDate>Sun, 07 Apr 2019 18:09:49 +0530</pubDate>
+      
+      <guid>https://dimpu47.github.io/blog/python-dataclasses/</guid>
+      <description>What data.. classes.. ? Python 3.7 adds a new module in standard library called Data Classes. So, what are they? what do they do? how do they benefit ? This article shall cover it all.
+Data Classes module provides a decorator to automate the creation of data models. A dataclass can be thoought of as a mutable object/class that contains no. of fields. These fields are typically known in advance and are stored in a database table or in API.</description>
+    </item>
     
     <item>
       <title>Operators in Go or Ansible.</title>
@@ -29,6 +39,15 @@ p.s: this is wip.</description>
       
       <guid>https://dimpu47.github.io/blog/facade-and-flyweight/</guid>
       <description>Facade and Flyweight in Go. These are two data structral pattern in any application, I&amp;rsquo;ll be practing how to write them principles in Go.</description>
+    </item>
+    
+    <item>
+      <title>CSI - Container Storage Interface</title>
+      <link>https://dimpu47.github.io/blog/storage-k8s/</link>
+      <pubDate>Tue, 12 Feb 2019 17:09:14 -0500</pubDate>
+      
+      <guid>https://dimpu47.github.io/blog/storage-k8s/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -61,7 +80,7 @@ what is isomorphic, though? isomorphic webapps are when server and client share 
       <pubDate>Mon, 19 Nov 2018 15:07:32 +0530</pubDate>
       
       <guid>https://dimpu47.github.io/blog/k8s-hpa/</guid>
-      <description>p.s: this is wip.</description>
+      <description>Horizontal Pod Autoscaler - HPA HorizaontalPodAutoscaler is a Kubernetes Resource that automatically scales Pod Replicas managed by a Controller. This automaic scaling is performed by Horizontal Controllers, which is enabled and configured by creating a HorizontalPodAutoscaler(HPA) Resource. The Controller periodically checks pod metrics, calculates the no. of replicas required to meet the target value configured in HPA resource and adjust/update replica field on target resource i.e. Deployment, ReplicaSet, StatefulSet, ReplicationController.</description>
     </item>
     
     <item>
@@ -92,15 +111,6 @@ Go&amp;rsquo;s concurrency model is built upon CSP - Communicating Sequencial Pr
       <guid>https://dimpu47.github.io/blog/go-websockets/</guid>
       <description>Websockets are way of providing full-duplex communication b/w client and server with lower overheads. URI schemes ws or wss is a websocket (unencrypted) or websocket secure (encrypted) protocol respectively. It&amp;rsquo;s designed to work over HTTP port 80 or 443 to support HTTP Proxies and Intermediaries.
 When establishing connection, client sends an HTTP Upgrade Header to switch from HTTP protocol to WebSocket protocol. Communications i.e. exchange of data or byte streams are dealt by TCP alone.</description>
-    </item>
-    
-    <item>
-      <title>Oops! not have go installed ? Woah o_O </title>
-      <link>https://dimpu47.github.io/code/code/</link>
-      <pubDate>Sat, 17 Dec 2016 15:32:33 +0530</pubDate>
-      
-      <guid>https://dimpu47.github.io/code/code/</guid>
-      <description> compile from source ? not really !  </description>
     </item>
     
   </channel>
