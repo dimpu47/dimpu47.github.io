@@ -23,15 +23,6 @@ Data Classes module provides a decorator to automate the creation of data models
     </item>
     
     <item>
-      <title>Facade and Flyweight in Go.</title>
-      <link>https://dimpu47.github.io/blog/facade-and-flyweight/</link>
-      <pubDate>Fri, 22 Feb 2019 17:09:14 -0500</pubDate>
-      
-      <guid>https://dimpu47.github.io/blog/facade-and-flyweight/</guid>
-      <description>Facade and Flyweight in Go. These are two data structral pattern in any application, I&amp;rsquo;ll be practing how to write them principles in Go.</description>
-    </item>
-    
-    <item>
       <title>Extending Kubernetes</title>
       <link>https://dimpu47.github.io/blog/extending-kubernetes/</link>
       <pubDate>Sat, 02 Feb 2019 17:09:14 -0500</pubDate>
