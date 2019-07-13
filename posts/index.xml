@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>gaurolog</title>
-    <link>https://dimpu47.github.io/</link>
-    <description>Recent content on gaurolog</description>
+    <title>Blog on gaurolog</title>
+    <link>https://dimpu47.github.io/posts/</link>
+    <description>Recent content in Blog on gaurolog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 24 Feb 2019 15:07:32 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2015 06:42:21 -0700</lastBuildDate>
     
-	<atom:link href="https://dimpu47.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dimpu47.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -99,25 +99,6 @@ Go&amp;rsquo;s concurrency model is built upon CSP - Communicating Sequencial Pr
       <guid>https://dimpu47.github.io/posts/go-websockets/</guid>
       <description>Websockets are way of providing full-duplex communication b/w client and server with lower overheads. URI schemes ws or wss is a websocket (unencrypted) or websocket secure (encrypted) protocol respectively. It&amp;rsquo;s designed to work over HTTP port 80 or 443 to support HTTP Proxies and Intermediaries.
 When establishing connection, client sends an HTTP Upgrade Header to switch from HTTP protocol to WebSocket protocol. Communications i.e. exchange of data or byte streams are dealt by TCP alone.</description>
-    </item>
-    
-    <item>
-      <title>Hola Mundo</title>
-      <link>https://dimpu47.github.io/code/test/</link>
-      <pubDate>Sat, 17 Dec 2016 15:32:33 +0530</pubDate>
-      
-      <guid>https://dimpu47.github.io/code/test/</guid>
-      <description>$ touch hola_mundo.go &amp;amp;&amp;amp; vim hola_mundo.go
-package main import &amp;quot;fmt&amp;quot; func main() { fmt.Println(&amp;quot;Hola Mundo! Gracias&amp;quot;) }  $ go run hello_world.go Hola Mundo! Gracias  </description>
-    </item>
-    
-    <item>
-      <title>about</title>
-      <link>https://dimpu47.github.io/about/about/</link>
-      <pubDate>Sat, 22 Aug 2015 06:42:21 -0700</pubDate>
-      
-      <guid>https://dimpu47.github.io/about/about/</guid>
-      <description>personal learning weblog, wer i yap &#39;bout shi&#39; i like! hope yo dig it! mike! Grazie.  </description>
     </item>
     
   </channel>

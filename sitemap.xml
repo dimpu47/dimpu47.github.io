@@ -3,37 +3,58 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://dimpu47.github.io/blog/python-dataclasses/</loc>
-    <lastmod>2019-04-07T18:09:49+05:30</lastmod>
+    <loc>https://dimpu47.github.io/posts/k8s-operator/</loc>
+    <lastmod>2019-02-24T15:07:32+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://dimpu47.github.io/blog/extending-kubernetes/</loc>
+    <loc>https://dimpu47.github.io/</loc>
+    <lastmod>2019-02-24T15:07:32+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dimpu47.github.io/posts/facade-and-flyweight/</loc>
+    <lastmod>2019-02-22T17:09:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dimpu47.github.io/posts/storage-k8s/</loc>
+    <lastmod>2019-02-12T17:09:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dimpu47.github.io/posts/extending-kubernetes/</loc>
     <lastmod>2019-02-02T17:09:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dimpu47.github.io/blog/isomorphic-go/</loc>
+    <loc>https://dimpu47.github.io/posts/isomorphic-go/</loc>
     <lastmod>2019-01-19T15:07:32+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://dimpu47.github.io/blog/k8s-hpa/</loc>
+    <loc>https://dimpu47.github.io/posts/k8s-hpa/</loc>
     <lastmod>2018-11-19T15:07:32+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://dimpu47.github.io/blog/go-systems-programming/</loc>
+    <loc>https://dimpu47.github.io/posts/sniffing-in-go/</loc>
+    <lastmod>2018-09-02T17:09:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dimpu47.github.io/posts/go-systems-programming/</loc>
     <lastmod>2018-08-25T17:09:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dimpu47.github.io/blog/go-websockets/</loc>
+    <loc>https://dimpu47.github.io/posts/go-websockets/</loc>
     <lastmod>2018-06-25T17:09:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dimpu47.github.io/code/code/</loc>
+    <loc>https://dimpu47.github.io/code/test/</loc>
     <lastmod>2016-12-17T15:32:33+05:30</lastmod>
   </url>
   
@@ -43,7 +64,7 @@
   </url>
   
   <url>
-    <loc>https://dimpu47.github.io/blog/</loc>
+    <loc>https://dimpu47.github.io/posts/</loc>
     <lastmod>2015-08-22T06:42:21-07:00</lastmod>
   </url>
   
@@ -53,13 +74,17 @@
   </url>
   
   <url>
-    <loc>https://dimpu47.github.io/tags/</loc>
+    <loc>https://dimpu47.github.io/about/about/</loc>
+    <lastmod>2015-08-22T06:42:21-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dimpu47.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://dimpu47.github.io/</loc>
-    <lastmod>2019-04-07T18:09:49+05:30</lastmod>
+    <loc>https://dimpu47.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   

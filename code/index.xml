@@ -5,20 +5,19 @@
     <link>https://dimpu47.github.io/code/</link>
     <description>Recent content in code on gaurolog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Sat, 17 Dec 2016 15:32:33 +0530</lastBuildDate>
     
 	<atom:link href="https://dimpu47.github.io/code/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Oops! not have go installed ? Woah o_O </title>
-      <link>https://dimpu47.github.io/code/code/</link>
+      <title>Hola Mundo</title>
+      <link>https://dimpu47.github.io/code/test/</link>
       <pubDate>Sat, 17 Dec 2016 15:32:33 +0530</pubDate>
       
-      <guid>https://dimpu47.github.io/code/code/</guid>
-      <description> compile from source ? not really !  </description>
+      <guid>https://dimpu47.github.io/code/test/</guid>
+      <description>$ touch hola_mundo.go &amp;amp;&amp;amp; vim hola_mundo.go
+package main import &amp;quot;fmt&amp;quot; func main() { fmt.Println(&amp;quot;Hola Mundo! Gracias&amp;quot;) }  $ go run hello_world.go Hola Mundo! Gracias  </description>
     </item>
     
   </channel>
