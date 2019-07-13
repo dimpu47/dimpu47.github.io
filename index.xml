@@ -101,24 +101,5 @@ Go&amp;rsquo;s concurrency model is built upon CSP - Communicating Sequencial Pr
 When establishing connection, client sends an HTTP Upgrade Header to switch from HTTP protocol to WebSocket protocol. Communications i.e. exchange of data or byte streams are dealt by TCP alone.</description>
     </item>
     
-    <item>
-      <title>Hola Mundo</title>
-      <link>https://dimpu47.github.io/code/test/</link>
-      <pubDate>Sat, 17 Dec 2016 15:32:33 +0530</pubDate>
-      
-      <guid>https://dimpu47.github.io/code/test/</guid>
-      <description>$ touch hola_mundo.go &amp;amp;&amp;amp; vim hola_mundo.go
-package main import &amp;quot;fmt&amp;quot; func main() { fmt.Println(&amp;quot;Hola Mundo! Gracias&amp;quot;) }  $ go run hello_world.go Hola Mundo! Gracias  </description>
-    </item>
-    
-    <item>
-      <title>about</title>
-      <link>https://dimpu47.github.io/about/about/</link>
-      <pubDate>Sat, 22 Aug 2015 06:42:21 -0700</pubDate>
-      
-      <guid>https://dimpu47.github.io/about/about/</guid>
-      <description>personal learning weblog, wer i yap &#39;bout shi&#39; i like! hope yo dig it! mike! Grazie.  </description>
-    </item>
-    
   </channel>
 </rss>
