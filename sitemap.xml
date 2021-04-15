@@ -3,28 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://dimpu47.github.io/</loc>
-    <lastmod>2019-02-24T15:07:32+05:30</lastmod>
+    <lastmod>2020-10-02T17:09:14-05:00</lastmod>
+  </url><url>
+    <loc>https://dimpu47.github.io/blog/sniffing-in-go/</loc>
+    <lastmod>2020-10-02T17:09:14-05:00</lastmod>
   </url><url>
     <loc>https://dimpu47.github.io/blog/k8s-operator/</loc>
-    <lastmod>2019-02-24T15:07:32+05:30</lastmod>
-  </url><url>
-    <loc>https://dimpu47.github.io/blog/facade-and-flyweight/</loc>
-    <lastmod>2019-02-22T17:09:14-05:00</lastmod>
-  </url><url>
-    <loc>https://dimpu47.github.io/blog/storage-k8s/</loc>
-    <lastmod>2019-02-12T17:09:14-05:00</lastmod>
+    <lastmod>2020-06-24T15:07:32+05:30</lastmod>
   </url><url>
     <loc>https://dimpu47.github.io/blog/extending-kubernetes/</loc>
-    <lastmod>2019-02-02T17:09:14-05:00</lastmod>
+    <lastmod>2020-02-02T17:09:14-05:00</lastmod>
+  </url><url>
+    <loc>https://dimpu47.github.io/blog/facade-and-flyweight/</loc>
+    <lastmod>2019-12-22T17:09:14-05:00</lastmod>
+  </url><url>
+    <loc>https://dimpu47.github.io/blog/storage-k8s/</loc>
+    <lastmod>2019-09-12T17:09:14-05:00</lastmod>
   </url><url>
     <loc>https://dimpu47.github.io/blog/isomorphic-go/</loc>
     <lastmod>2019-01-19T15:07:32+05:30</lastmod>
   </url><url>
     <loc>https://dimpu47.github.io/blog/k8s-hpa/</loc>
     <lastmod>2018-11-19T15:07:32+05:30</lastmod>
-  </url><url>
-    <loc>https://dimpu47.github.io/blog/sniffing-in-go/</loc>
-    <lastmod>2018-09-02T17:09:14-05:00</lastmod>
   </url><url>
     <loc>https://dimpu47.github.io/blog/go-systems-programming/</loc>
     <lastmod>2018-08-25T17:09:14-05:00</lastmod>
