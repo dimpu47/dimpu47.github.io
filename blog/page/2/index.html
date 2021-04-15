@@ -4,14 +4,13 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>websockets in Go. | Gaurav&#39;s Weblog</title>
+<title>Blog | Gaurav&#39;s Weblog</title>
 
-<meta property='og:title' content='websockets in Go. - Gaurav&#39;s Weblog'>
-<meta property='og:description' content='Websockets are way of providing full-duplex communication b/w client and server with lower overheads. URI schemes ws or wss is a websocket (unencrypted) or websocket secure (encrypted) protocol respectively. It&rsquo;s designed to work over HTTP port 80 or 443 to support HTTP Proxies and Intermediaries.
-When establishing connection, client sends an HTTP Upgrade Header to switch from HTTP protocol to WebSocket protocol. Communications i.e. exchange of data or byte streams are dealt by TCP alone.'>
-<meta property='og:url' content='https://dimpu47.github.io/blog/go-websockets/'>
+<meta property='og:title' content='Blog - Gaurav&#39;s Weblog'>
+<meta property='og:description' content=''>
+<meta property='og:url' content='https://dimpu47.github.io/blog/'>
 <meta property='og:site_name' content='Gaurav&#39;s Weblog'>
-<meta property='og:type' content='article'><meta property='og:image' content='https://www.gravatar.com/avatar/a337355cad82bed39a0cad024d440828?s=256'><meta property='article:author' content='https://facebook.com/dimpu47'><meta property='article:section' content='Blog'><meta property='article:published_time' content='2018-06-25T17:09:14-05:00'><meta property='article:modified_time' content='2018-06-25T17:09:14-05:00'><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@dimpu47'><meta name='twitter:creator' content='@dimpu47'>
+<meta property='og:type' content='website'><meta property='og:image' content='https://www.gravatar.com/avatar/a337355cad82bed39a0cad024d440828?s=256'><meta property='article:section' content='Blog'><meta property='og:updated_time' content='2019-02-24T15:07:32&#43;05:30'><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@dimpu47'><meta name='twitter:creator' content='@dimpu47'>
 
 
 <link href="https://dimpu47.github.io/index.xml" rel="alternate" type="application/rss+xml" title="Gaurav&#39;s Weblog">
@@ -21,7 +20,7 @@ When establishing connection, client sends an HTTP Upgrade Header to switch from
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-<link rel="canonical" href="https://dimpu47.github.io/blog/go-websockets/">
+<link rel="canonical" href="https://dimpu47.github.io/blog/">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
 </head>
@@ -96,77 +95,119 @@ When establishing connection, client sends an HTTP Upgrade Header to switch from
 </section>
 <section class="section">
   <div class="container">
-    <div class="subtitle tags is-6 is-pulled-right">
-      
-    </div>
-    <h2 class="subtitle is-6">June 25, 2018</h2>
-    <h1 class="title">websockets in Go.</h1>
     
-    <div class="content">
-      <p>Websockets are way of providing full-duplex communication b/w client and server with lower overheads. URI schemes  <code>ws</code> or <code>wss</code> is a websocket (unencrypted) or websocket secure (encrypted) protocol respectively. It&rsquo;s designed to work over HTTP port <code>80</code> or <code>443</code> to support HTTP Proxies and Intermediaries.</p>
-<p>When establishing connection, client sends an HTTP Upgrade Header to switch from HTTP protocol to WebSocket protocol. Communications i.e. exchange of data or byte streams are dealt by TCP alone. This is beneficial in environments protected by Firewall.</p>
-<blockquote>
-<p>Remember there only need to be <strong>one</strong> established connection b/w client and server for &lsquo;em to communicate with <strong>each other</strong>. Unlike HTTP client needing to make repetitive requests to server to respond back to it.</p>
-</blockquote>
-<h5 id="ill-be-building-a-chat-application-in-go-covering-following-topics">I&rsquo;ll be building a chat application in Go, covering following topics:</h5>
-<ul>
-<li>use <a href="https://golang.org/pkg/net/http/">net/http</a> package to server HTTP Requests</li>
-<li>Deliver template-driven driven content to users</li>
-<li>Satisfy a <a href="https://gobyexample.com/interfaces"><em>Go Interface</em></a> to build our own <code>http.Handler</code> types.</li>
-<li>Use <em>gorutines</em> for multitasking concurrently.</li>
-<li>use <em>channels</em> to share information b/w goroutines.</li>
-<li>upgrade HTTP requests to use <a href="https://en.wikipedia.org/wiki/WebSocket">websockets</a>.</li>
-<li>Add <em>Tracing</em> to our app to better understand it&rsquo;s inner workings.</li>
-<li>Write a complete package using <a href="http://agiledata.org/essays/tdd.html">TDD</a> Methodology.</li>
-<li>Return <em>Unexported types</em> via <em>Exported interfaces</em>.</li>
-</ul>
-<blockquote>
-<p>[<strong>OWASP Testing Guide for Websockets</strong>] (<a href="https://github.com/OWASP/OWASP-Testing-Guide-v5/blob/master/document/4%20Web%20Application%20Security%20Testing/4.12%20Client%20Side%20Testing/4.12.10%20Testing%20WebSockets%20(OTG-CLIENT-010).md">https://github.com/OWASP/OWASP-Testing-Guide-v5/blob/master/document/4%20Web%20Application%20Security%20Testing/4.12%20Client%20Side%20Testing/4.12.10%20Testing%20WebSockets%20(OTG-CLIENT-010).md</a>) &ndash; Not covered here but useful.</p>
-</blockquote>
-<p><em>p.s: this is currently being refactored. consider it <strong>wip</strong>.</em></p>
+    <article>
+      <div class="subtitle tags is-6 is-pulled-right">
+        
+      </div>
+      <h2 class="subtitle is-6 date">November 19, 2018</h2>
+      <h1 class="title"><a href="https://dimpu47.github.io/blog/k8s-hpa/">Horizontal Pod Autoscaler.
 
-      
-      <div class="related">
-</div>
-      
-    </div>
+  
+    
+  
+</a></h1>
+      <div class="content">
+        Horizontal Pod Autoscaler - HPA HorizaontalPodAutoscaler is a Kubernetes Resource that automatically scales Pod Replicas managed by a Controller. This automaic scaling is performed by Horizontal Controllers, which is enabled and configured by creating a HorizontalPodAutoscaler(HPA) Resource. The Controller periodically checks pod metrics, calculates the no. of replicas required to meet the target value configured in HPA resource and adjust/update replica field on target resource i.e. Deployment, ReplicaSet, StatefulSet, ReplicationController.
+        
+        <a class="button is-link" href="https://dimpu47.github.io/blog/k8s-hpa/" style="height:28px">
+          Read more
+        </a>
+        
+      </div>
+    </article>
+    
+    <article>
+      <div class="subtitle tags is-6 is-pulled-right">
+        
+      </div>
+      <h2 class="subtitle is-6 date">September 2, 2018</h2>
+      <h1 class="title"><a href="https://dimpu47.github.io/blog/sniffing-in-go/">Sniffing in Go.
+
+  
+    
+  
+</a></h1>
+      <div class="content">
+        
+        
+      </div>
+    </article>
+    
+    <article>
+      <div class="subtitle tags is-6 is-pulled-right">
+        
+      </div>
+      <h2 class="subtitle is-6 date">August 25, 2018</h2>
+      <h1 class="title"><a href="https://dimpu47.github.io/blog/go-systems-programming/">systems programming in Go.
+
+  
+    
+  
+</a></h1>
+      <div class="content">
+        why golang for systems programming&hellip; ? .
+ Go was written by google as famously sited many times over the internet. Some of the people involved in development of Golang are working professionals at Google, who were also involved with many Unix &amp; C developments, and they developed Golang because of increasing complex demands of System Engineering at google, and C was becoming hard to maintain.
+Go&rsquo;s concurrency model is built upon CSP - Communicating Sequencial Processes  Where values are shared b/w independent activities or goroutines but variables are, for the most part, confined to single activity.
+        
+        <a class="button is-link" href="https://dimpu47.github.io/blog/go-systems-programming/" style="height:28px">
+          Read more
+        </a>
+        
+      </div>
+    </article>
+    
+    <article>
+      <div class="subtitle tags is-6 is-pulled-right">
+        
+      </div>
+      <h2 class="subtitle is-6 date">June 25, 2018</h2>
+      <h1 class="title"><a href="https://dimpu47.github.io/blog/go-websockets/">websockets in Go.
+
+  
+    
+  
+</a></h1>
+      <div class="content">
+        Websockets are way of providing full-duplex communication b/w client and server with lower overheads. URI schemes ws or wss is a websocket (unencrypted) or websocket secure (encrypted) protocol respectively. It&rsquo;s designed to work over HTTP port 80 or 443 to support HTTP Proxies and Intermediaries.
+When establishing connection, client sends an HTTP Upgrade Header to switch from HTTP protocol to WebSocket protocol. Communications i.e. exchange of data or byte streams are dealt by TCP alone.
+        
+        <a class="button is-link" href="https://dimpu47.github.io/blog/go-websockets/" style="height:28px">
+          Read more
+        </a>
+        
+      </div>
+    </article>
     
   </div>
 </section>
-
-
 <section class="section">
   <div class="container">
-    <aside><div id="disqus_thread"></div></aside>
-  
-    <div id="show_comments"><a id="load_comments" class="button is-link">Load comments</a></div>
-  
-    <script type="text/javascript">
-      var disqus_shortname = 'shortname';
-      function disqus() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-      }
-  
-      
-      var hash = window.location.hash.substr(1);
-      if ((hash.length > 8) && (hash.substring(0, 8) === "comment-")) {
-        disqus();
-        document.getElementById("show_comments").style.display = "none";
-      } else {
-        document.getElementById('load_comments').onclick = function() {
-          disqus();
-          document.getElementById("show_comments").style.display = "none";
-        };
-      }
-  
-
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+    <nav class="level is-mobile">
+      <div class="level-left">
+        <div class="level-item">
+          
+          <a class="button" href="/blog/">
+            <span class="icon is-small is-marginless">
+              <svg viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    <polyline points="15 18 9 12 15 6"/>
+    
+  </svg>
+            </span>
+            Newer
+          </a>
+          
+        </div>
+      </div>
+      <div class="level-right is-marginless">
+        <div class="level-item">
+          
+        </div>
+      </div>
+    </nav>
   </div>
 </section>
-
 
 <section class="section">
   <div class="container has-text-centered">

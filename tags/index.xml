@@ -1,13 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on gaurolog</title>
+    <title>Tags on Gaurav&#39;s Weblog</title>
     <link>https://dimpu47.github.io/tags/</link>
-    <description>Recent content in Tags on gaurolog</description>
+    <description>Recent content in Tags on Gaurav&#39;s Weblog</description>
     <generator>Hugo -- gohugo.io</generator>
-    
-	<atom:link href="https://dimpu47.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en</language>
+    <copyright>&amp;copy; &lt;a href=&#34;https://github.com/dimpu47&#34;&gt;Gaurav Choudhary&lt;/a&gt; 2017</copyright><atom:link href="https://dimpu47.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

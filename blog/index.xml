@@ -1,25 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on gaurolog</title>
+    <title>Blog on Gaurav&#39;s Weblog</title>
     <link>https://dimpu47.github.io/blog/</link>
-    <description>Recent content in Blog on gaurolog</description>
+    <description>Recent content in Blog on Gaurav&#39;s Weblog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sat, 22 Aug 2015 06:42:21 -0700</lastBuildDate>
-    
-	<atom:link href="https://dimpu47.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
-    
+    <language>en</language>
+    <copyright>&amp;copy; &lt;a href=&#34;https://github.com/dimpu47&#34;&gt;Gaurav Choudhary&lt;/a&gt; 2017</copyright>
+    <lastBuildDate>Sat, 22 Aug 2015 06:42:21 -0700</lastBuildDate><atom:link href="https://dimpu47.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Operators in Go or Ansible.</title>
+      <link>https://dimpu47.github.io/blog/k8s-operator/</link>
+      <pubDate>Sun, 24 Feb 2019 15:07:32 +0530</pubDate>
+      
+      <guid>https://dimpu47.github.io/blog/k8s-operator/</guid>
+      <description>Operators makes it easy to incorporte ops knowledge in k8s native resource. They are not something new, but they way it is built, managed and implemented is revolutionary. In fundamental k8s terms an operator is CRD ( custom resource definition ) and custom Controller.
+Controllers are what integrates the CRD to k8s api and database. these are what makes kubernetes pluggable and extedable, as this is way to add your custom logic in context of k8s cluster.</description>
+    </item>
     
     <item>
-      <title>Data Classes in Python3.7</title>
-      <link>https://dimpu47.github.io/blog/python-dataclasses/</link>
-      <pubDate>Sun, 07 Apr 2019 18:09:49 +0530</pubDate>
+      <title>Structural Patterns in Go.</title>
+      <link>https://dimpu47.github.io/blog/facade-and-flyweight/</link>
+      <pubDate>Fri, 22 Feb 2019 17:09:14 -0500</pubDate>
       
-      <guid>https://dimpu47.github.io/blog/python-dataclasses/</guid>
-      <description>What data.. classes.. ? Python 3.7 adds a new module in standard library called Data Classes. So, what are they? what do they do? how do they benefit ? This article shall cover it all.
-Data Classes module provides a decorator to automate the creation of data models. A dataclass can be thought of as a mutable object/class that contains no. of fields. These fields are typically known in advance and are stored in a database table or in API.</description>
+      <guid>https://dimpu47.github.io/blog/facade-and-flyweight/</guid>
+      <description>Structural design patterns describe the relationships between the entities. They are used to form large structures using classes and objects. These patterns are used to create a system with different system blocks in a flexible manner. Adapter, bridge, composite, decorator, facade, flyweight, private class data, and proxy are the Gang of Four (GoF) structural design patterns. The private class data design pattern is the other design pattern covered in this section.</description>
+    </item>
+    
+    <item>
+      <title>Container Storage Interface</title>
+      <link>https://dimpu47.github.io/blog/storage-k8s/</link>
+      <pubDate>Tue, 12 Feb 2019 17:09:14 -0500</pubDate>
+      
+      <guid>https://dimpu47.github.io/blog/storage-k8s/</guid>
+      <description>CSI is the container storage interface. It is a plugin for Kubernetes and other container orchestrators that allows storage suppliers to expose their products to containerised applications as persistent storage. You can look the detailed specification here.
+Although prior to CSI Kubernetes provided a powerful volume plugin system, it was challenging to add support for new volume plugins to Kubernetes: volume plugins were “in-tree” meaning their code was part of the core Kubernetes code and shipped with the core Kubernetes binaries—vendors wanting to add support for their storage system to Kubernetes (or even fix a bug in an existing volume plugin) were forced to align with the Kubernetes release process.</description>
     </item>
     
     <item>
@@ -53,6 +68,15 @@ what is isomorphic, though? isomorphic webapps are when server and client share 
       
       <guid>https://dimpu47.github.io/blog/k8s-hpa/</guid>
       <description>Horizontal Pod Autoscaler - HPA HorizaontalPodAutoscaler is a Kubernetes Resource that automatically scales Pod Replicas managed by a Controller. This automaic scaling is performed by Horizontal Controllers, which is enabled and configured by creating a HorizontalPodAutoscaler(HPA) Resource. The Controller periodically checks pod metrics, calculates the no. of replicas required to meet the target value configured in HPA resource and adjust/update replica field on target resource i.e. Deployment, ReplicaSet, StatefulSet, ReplicationController.</description>
+    </item>
+    
+    <item>
+      <title>Sniffing in Go.</title>
+      <link>https://dimpu47.github.io/blog/sniffing-in-go/</link>
+      <pubDate>Sun, 02 Sep 2018 17:09:14 -0500</pubDate>
+      
+      <guid>https://dimpu47.github.io/blog/sniffing-in-go/</guid>
+      <description></description>
     </item>
     
     <item>

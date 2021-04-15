@@ -1,14 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>code on gaurolog</title>
+    <title>code on Gaurav&#39;s Weblog</title>
     <link>https://dimpu47.github.io/code/</link>
-    <description>Recent content in code on gaurolog</description>
+    <description>Recent content in code on Gaurav&#39;s Weblog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 17 Dec 2016 15:32:33 +0530</lastBuildDate>
-    
-	<atom:link href="https://dimpu47.github.io/code/index.xml" rel="self" type="application/rss+xml" />
-    
+    <language>en</language>
+    <copyright>&amp;copy; &lt;a href=&#34;https://github.com/dimpu47&#34;&gt;Gaurav Choudhary&lt;/a&gt; 2017</copyright>
+    <lastBuildDate>Sat, 17 Dec 2016 15:32:33 +0530</lastBuildDate><atom:link href="https://dimpu47.github.io/code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Oops! not have go installed ? Woah o_O </title>
+      <link>https://dimpu47.github.io/code/code/</link>
+      <pubDate>Sat, 17 Dec 2016 15:32:33 +0530</pubDate>
+      
+      <guid>https://dimpu47.github.io/code/code/</guid>
+      <description> compile from source ? not really !  </description>
+    </item>
     
   </channel>
 </rss>
